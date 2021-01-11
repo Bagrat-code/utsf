@@ -105,7 +105,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             
             .sousTitre {
                 margin: 0%;
-                color: rgb(0, 77, 150);
+                color: rgb(0, 95, 150);
                 text-shadow: 1px 1px 2px #ffffff;
                 font-size: 17px;
             }
@@ -128,7 +128,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             }
 
             .presentation_menu {
-                color: blue;
+                color: rgb(0, 200, 250);
                 font-size: 25px;
                 font-weight: bold;
             }
@@ -297,10 +297,6 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 color: #FF0000;
             }
 
-            .infosfooter {
-
-                padding-top: 3%;
-            }
             /*-------------FIN FOOTER---------------*/
             /*///////////////////////////////////////*/
             /*----------------Hover------------------*/
@@ -314,3 +310,45 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             /*///////////////////////////////////////*/
             /*----------------Medi@Queries------------------*/
             /* Et là on mettras les mediaqueries !! */
+
+
+            @media screen and (max-width: 650px)
+{
+
+    .logoVille 
+        {
+          display: none; 
+    }
+
+     ul {
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         font-size: 13px;
+     }
+
+     .presentation p {
+
+        font-size: 15px;
+        padding-top: 1% ;
+     }
+
+     a:hover {
+         color: yellow ;
+     }
+
+    }
+
+    img {
+
+        padding-top: 5%;
+    }
+
+    .activites li {
+
+        padding-top: 50px;
+        
+    }
+
+    
