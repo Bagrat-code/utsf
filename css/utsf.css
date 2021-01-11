@@ -238,6 +238,12 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 width: 100px;
             }
 
+            .activites li {
+
+                padding-top: 50px;
+                
+            }
+
             /*fin logos*/
             /*------------*/
             /*tableau emploi du temps*/
@@ -362,19 +368,17 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
          color: yellow ;
      }
 
-    }
-
-    .textMini li{
+     .textMini li{
 
         font-size: 15px;
         padding-top: 5%;
 
     }
 
-    .activites li {
-
-        padding-top: 50px;
-        
     }
+
+    
+
+    
 
     
