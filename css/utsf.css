@@ -262,7 +262,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             /*-------------FOOTER-----------------*/
             
             footer {
-                background-color: rgb(143, 113, 91);
+                background-color: black;
                 
                 
             }
@@ -296,6 +296,29 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
 
                 color: #FF0000;
             }
+
+            .jaune {
+
+                color: yellow;
+            }
+
+            .fa-map-marker-alt {
+
+                font-size: 50px;
+            }
+
+            .fa-phone-volume {
+
+                font-size: 50px;
+                color: white;
+            }
+
+            .fa-at {
+
+                font-size: 50px ;
+            }
+
+            
 
             /*-------------FIN FOOTER---------------*/
             /*///////////////////////////////////////*/
@@ -340,10 +363,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
 
     }
 
-    img {
-
-        padding-top: 5%;
-    }
+    
 
     .activites li {
 
