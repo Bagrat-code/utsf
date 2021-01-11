@@ -123,7 +123,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .imgAccueil {
                 width: 90%;
                 height: 100%;
-                border: solid 1px rgb(221, 221, 221);
+                
  
             }
 
@@ -237,6 +237,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 height: 100px;
                 width: 100px;
             }
+
             /*fin logos*/
             /*------------*/
             /*tableau emploi du temps*/
@@ -363,7 +364,12 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
 
     }
 
-    
+    .textMini li{
+
+        font-size: 15px;
+        padding-top: 5%;
+
+    }
 
     .activites li {
 
