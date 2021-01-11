@@ -29,9 +29,18 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             ul {
                 list-style-type: none;
             }
+
+            li {
+                list-style: none;
+            }
             
             a {
                 text-decoration: none;
+            }
+
+            a:hover {
+
+                color:black;
             }
             /*////////////////////////////////////*/
             /* -------racourcis------ */
@@ -56,7 +65,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .jcc {
                 justify-content: center;
             }
-            
+
             .grid {
                 display: grid;
             }
@@ -115,6 +124,31 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 width: 90%;
                 height: 100%;
                 border: solid 1px rgb(221, 221, 221);
+ 
+            }
+
+            .presentation_menu {
+                color: blue;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .activites_menu {
+                color: white;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            
+            .programmes_menu {
+                color: white;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            
+            .contact_menu {
+                color: #FF0000;
+                font-size: 25px;
+                font-weight: bold;
             }
             /*------------------FIN Header ------------------*/
             /* /////////////////////////////////////////////*/
@@ -142,6 +176,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .titreActivites {
                 font-size: 36px;
                 color: rgb(228, 62, 62);
+                
             }
             
             .titreProgrammes {
@@ -171,7 +206,6 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .imgActivites {
                 height: 240px;
                 width: 350px;
-                border: solid 1px rgb(255, 82, 82);
                 border-radius: 2%;
             }
             
@@ -214,6 +248,11 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .joursSemaine {
                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
             }
+
+            .couleurJours {
+
+                color: orange;
+            }
             
             .horairesProgrammes {
                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -223,12 +262,15 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             /*-------------FOOTER-----------------*/
             
             footer {
-                background-color: rgb(54, 156, 204);
+                background-color: rgb(143, 113, 91);
+                
+                
             }
             
             .titreFooter {
                 font-size: 36px;
                 color: rgb(228, 62, 62);
+                padding-top: 1%;
             }
             
             .imgFooter {
@@ -238,6 +280,26 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             
             .hdp {
                 color: red;
+            }
+
+            .adresse {
+
+                color: #7BB3E7;
+            }
+
+            .telephone {
+
+                color: white;
+            }
+
+            .mail {
+
+                color: #FF0000;
+            }
+
+            .infosfooter {
+
+                padding-top: 3%;
             }
             /*-------------FIN FOOTER---------------*/
             /*///////////////////////////////////////*/

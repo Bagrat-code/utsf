@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/utsf.css">
 
 
@@ -47,12 +48,12 @@
         <!-- le titre 'UTSF' et son sous''titre-->
         <article class="utsfGrand flex jcsb">
             <div>
-                <h1> <span class="lettre_u">U</span><span class="lettre_ts">TS</span><span class="lettre_f">F</span> </h1>
+                <h1> <a href="index.html"><span class="lettre_u">U</span><span class="lettre_ts">TS</span><span class="lettre_f">F</span> </a>  </h1>
                 <h2 class="sousTitre">Union Tremplin Socio-Culturelle de France</h2>
             </div>
 
             <div>
-                <img class="logoVille" src="./img/logoVille.png" alt="Logo ville de Champigny Sur Marne">
+                <a href="https://www.champigny94.fr/" target="blank"><img class="logoVille" src="./img/logoVille.png" alt="Logo ville de Champigny Sur Marne"> </a>
             </div>
         </article>
 
@@ -60,10 +61,12 @@
 
         <!-- Sous-menu  -->
         <ul class="sousMenu flex jcsa">
-            <li class="presentation_menu">PRESENTATION</li>
-            <li class="activites_menu">ACTIVITES</li>
-            <li class="programmes_menu">PROGRAMMES</li>
-            <li class="contact_menu">CONTACT</li>
+            <li class="presentation_menu"><a class="presentation_menu" href="#presentation">PRESENTATION </a> </li>
+            <li class="activites_menu"> <a class="activites_menu" href="#activites">ACTIVITÉS </a> </li>
+            <li class="programmes_menu"> <a class="programmes_menu" href="#programmes">PROGRAMMES </a> </li>
+            <li class="contact_menu"> <a class="contact_menu" href="#contact">CONTACT </a></li>
+
+            
         </ul>
 
         <div class="flex jcc">
@@ -83,7 +86,7 @@
 
             <hr class="taCenter"></hr>
 
-            <h2 class="titrePresentation taCenter">PRESENTATION</h2>
+            <h2 id="presentation" class="titrePresentation taCenter">PRESENTATION</h2>
 
             <!-- descrition de l'assossiation'-->
             <p class="textPres taCenter">Union Tremplin Socio-culturelle France est une association crée en 1988 à Champigny sur Marne(94). Association ouverte à tous proposant des activités culturelles, sociales et infomatique telles que des évènements sportifs, solidaire, ludiques
@@ -115,7 +118,7 @@
         <!-- SECTION ACTIVITÉS-->
         <section class="activites taCenter">
 
-            <h2 class="titreActivites taCenter"> ACTIVITÉS</h2>
+            <h2 id="activites" class="titreActivites taCenter"> ACTIVITÉS</h2>
 
             <article class="textActivites flex jcc">
                 <img class="imgActivites" src="./img/learning02.png">
@@ -126,7 +129,7 @@
 
             </article>
 
-            <article class="textActivites flex jcc">
+            <article class="textActivites flex jcc ">
                 <ul>
                     <li>Démarches administrative</li>
                     <li>Aide au numérique</li>
@@ -159,7 +162,7 @@
         <!-- SECTION PROGRAMMES-->
         <section class="programmes taCenter">
 
-            <h2 class=titreProgrammes>PROGRAMMES</h2>
+            <h2 id="programmes" class=titreProgrammes>PROGRAMMES</h2>
 
             <p class="miniTitres"> HORAIRES D’OUVERTURE: </p>
 
@@ -170,7 +173,7 @@
 
             <article class=" emploiDuTemps grid">
 
-                <div class="joursSemaine grid">
+                <div class="joursSemaine couleurJours grid" >
 
                     <p class="textJours">MARDI</p>
 
@@ -249,25 +252,25 @@
 
     <!-- SECTION CONTACTS-->
     <footer>
-        <h2 class="titreFooter taCenter">CONTACTS</h2>
+        <h2 id="contact" class="titreFooter taCenter">CONTACTS</h2>
 
-        <div class="flex wrap jcsa">
+        <div class="flex wrap jcsa ">
 
-            <article class="adresse taCenter ">
-                <img class="imgFooter " src="./img/ping.png ">
-                <p>11, allée Carpeaux 94500 Champigny-sur-Marne</p>
+            <article class="adresse taCenter  ">
+                <img class="imgFooter" src="./img/ping.png ">
+                <p class="adresse">11, allée Carpeaux 94500 Champigny-sur-Marne</p>
             </article>
 
 
             <article class="numtel taCenter ">
-                <img class="imgFooter " src="./img/tel.png ">
-                <p>01 48 80 11 32</p>
+                <img class="imgFooter" src="./img/tel.png ">
+                <p class="telephone">01 48 80 11 32</p>
             </article>
 
             <article class="mail taCenter ">
-                <img class="imgFooter " src="./img/mail.png ">
+                <img class="imgFooter" src="./img/mail.png ">
                 <p>utsfar_champigny@hotmail.com</p>
-                <p>cyberblb@outlook.fr</p>
+                <p class="mail">cyberblb@outlook.fr</p>
             </article>
 
         </div>
@@ -275,7 +278,7 @@
 
         <div class="flex jcsa">
             <p>Assossiation loi 1901</p>
-            <p><a class="hdp" href="#header">Revenir en haut de page</a></p>
+            <li><a href="#" class="btn btn-primary">Revenir en haut de page</a></li>
         </div>
 
 
