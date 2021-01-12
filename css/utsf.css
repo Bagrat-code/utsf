@@ -5,6 +5,7 @@ elle permet de styliser les éléments qui
             /* Pour ajouter un paramètre à un élément HTML, il suffit de prendre le nom des 'class' présents
 dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce que l'on veux dessus.
 (ex: ci dessous, on mets directement 'body' pour paramétrer tout ce que le body contient)*/
+
             /* balise générales */
             
             body {
@@ -14,9 +15,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 margin: 0%;
                 padding: 0%;
                 background-color: black;
-                background-image: linear-gradient(90deg, #6bbbbd 0%, #e194e2 100%);
-
-                
+                /* background-image: linear-gradient(90deg, #6bbbbd 0%, #e194e2 100%); */
                 /* background-image: url("../img/background.jpg"); */
                 background-size: 100%;
                 background-repeat: no-repeat;
@@ -31,7 +30,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             ul {
                 list-style-type: none;
             }
-
+            
             li {
                 list-style: none;
             }
@@ -39,13 +38,12 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             a {
                 text-decoration: none;
             }
-
+            
             a:hover {
-
-                color:black;
+                color: yellow;
             }
             /*////////////////////////////////////*/
-            /* -------racourcis------ */
+            /* -------RACCOURCIS------ */
             /*flex*/
             
             .flex {
@@ -67,7 +65,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .jcc {
                 justify-content: center;
             }
-
+            
             .grid {
                 display: grid;
             }
@@ -91,24 +89,23 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             }
             
             .lettre_u {
-                color: rgb(255, 255, 255);
-                text-shadow: 4px 4px 4px rgb(124, 183, 231);
+                color: #7BB3E7;
+                text-shadow: 4px 4px 4px rgb(3, 104, 187);
             }
             
             .lettre_ts {
                 color: rgb(255, 255, 255);
-                text-shadow: 2px 2px 2px rgb(6, 96, 170);
+                text-shadow: 2px 2px 2px rgb(255, 255, 255);
             }
             
             .lettre_f {
-                color: rgb(255, 255, 255);
-                text-shadow: 2px 2px 2px rgb(2, 192, 49);
+                color: #FF0000;
+                text-shadow: 2px 2px 2px rgb(192, 2, 2);
             }
             
             .sousTitre {
                 margin: 0%;
-                color: rgb(0, 95, 150);
-                text-shadow: 1px 1px 2px #ffffff;
+                color: rgb(0, 255, 136);
                 font-size: 17px;
             }
             
@@ -123,18 +120,18 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             }
             
             .imgAccueil {
-                width: 90%;
-                height: 100%;
-                
- 
+                margin-top: 3%;
+                margin-bottom: 0%;
+                width: 65%;
+                height: 80%;
             }
-
+            
             .presentation_menu {
                 color: rgb(0, 200, 250);
                 font-size: 25px;
                 font-weight: bold;
             }
-
+            
             .activites_menu {
                 color: white;
                 font-size: 25px;
@@ -166,7 +163,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             
             hr {
                 height: 2px;
-                width: 70%;
+                width: 100%;
                 background-color: rgb(255, 255, 255);
             }
             
@@ -175,10 +172,13 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 color: rgb(228, 62, 62);
             }
             
+            .presentation p {
+                padding-top: 1%;
+            }
+            
             .titreActivites {
                 font-size: 36px;
                 color: rgb(228, 62, 62);
-                
             }
             
             .titreProgrammes {
@@ -213,6 +213,7 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             
             .miniTitres {
                 font-size: 22px;
+                color: darkgrey;
             }
             
             .textMini {
@@ -239,13 +240,10 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 height: 100px;
                 width: 100px;
             }
-
+            
             .activites li {
-
                 padding-top: 50px;
-                
             }
-
             /*fin logos*/
             /*------------*/
             /*tableau emploi du temps*/
@@ -257,9 +255,8 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .joursSemaine {
                 grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
             }
-
+            
             .couleurJours {
-
                 color: orange;
             }
             
@@ -272,14 +269,12 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             
             footer {
                 background-color: black;
-                
-                
             }
             
             .titreFooter {
                 font-size: 36px;
                 color: rgb(228, 62, 62);
-                padding-top: 1%;
+                padding-bottom: 1%;
             }
             
             .imgFooter {
@@ -290,45 +285,25 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             .hdp {
                 color: red;
             }
-
+            
             .adresse {
-
                 color: #7BB3E7;
+                
             }
-
+            
             .telephone {
-
                 color: white;
+                
             }
-
+            
             .mail {
-
                 color: #FF0000;
+               
             }
-
+            
             .jaune {
-
                 color: yellow;
             }
-
-            .fa-map-marker-alt {
-
-                font-size: 50px;
-            }
-
-            .fa-phone-volume {
-
-                font-size: 50px;
-                color: white;
-            }
-
-            .fa-at {
-
-                font-size: 50px ;
-            }
-
-            
-
             /*-------------FIN FOOTER---------------*/
             /*///////////////////////////////////////*/
             /*----------------Hover------------------*/
@@ -342,53 +317,65 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
             /*///////////////////////////////////////*/
             /*----------------Medi@Queries------------------*/
             /* Et là on mettras les mediaqueries !! */
-
-
-            @media screen and (max-width: 650px)
-{
-
-    .logoVille 
-        {
-          display: none; 
-    }
-
-     ul {
-
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         font-size: 13px;
-     }
-
-     .presentation p {
-
-        font-size: 15px;
-        padding-top: 1% ;
-     }
-
-     
-     a:hover 
-     {
-         color: yellow ;
-     }
-
-     .textMini li {
-
-        font-size: 15px;
-        padding-top: 5%;
-
-    }
-
-    .imgActivites {
-
-        width: 250px;
-    }
-
-
-    }
-
-    
-
-    
-
-    
+            
+            @media screen and (max-width: 650px) {
+                .logoVille {
+                    display: none;
+                }
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 13px;
+                }
+                h2 {
+                    margin-top: 2%;
+                    margin-bottom: 4%;
+                }
+                .sousMenu {
+                    color: white;
+                    margin-top: 6%;
+                }
+                .sousMenu li a {
+                    font-size: 21px;
+                }
+                .imgAccueil {
+                    width: 85%;
+                    height: 88%;
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                }
+                .punchline {
+                    font-size: 23px;
+                }
+                .presentation p {
+                    font-size: 19px;
+                    padding-top: 1%;
+                }
+                a:hover {
+                    color: yellow;
+                }
+                .textMini li {
+                    font-size: 15px;
+                    padding-top: 5%;
+                }
+                .activites article {
+                    margin-top: 3%;
+                }
+                .imgActivites {
+                    width: 220px;
+                    height: 160px;
+                }
+                .textActivites ul li {
+                    font-size: px;
+                    margin: 0%;
+                }
+                footer div {
+                    display: flex;
+                    flex-direction: column;
+                }
+                footer div article {
+                    margin-top: 3%;
+                    margin-bottom: 3%;
+                }
+            }
