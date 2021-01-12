@@ -13,8 +13,10 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
                 width: 100%;
                 margin: 0%;
                 padding: 0%;
-                background-color: #00DBDE;
+                background-color: black;
                 background-image: linear-gradient(90deg, #6bbbbd 0%, #e194e2 100%);
+
+                
                 /* background-image: url("../img/background.jpg"); */
                 background-size: 100%;
                 background-repeat: no-repeat;
@@ -364,16 +366,24 @@ dans les éléments HTML, ou directement l'élément HTML même, et ajouter ce q
         padding-top: 1% ;
      }
 
-     a:hover {
+     
+     a:hover 
+     {
          color: yellow ;
      }
 
-     .textMini li{
+     .textMini li {
 
         font-size: 15px;
         padding-top: 5%;
 
     }
+
+    .imgActivites {
+
+        width: 250px;
+    }
+
 
     }
 
