@@ -1,0 +1,347 @@
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    /* background-image: linear-gradient(90deg, #6bbbbd 0%, #e194e2 100%); */
+    /* background-image: url("../img/background.jpg"); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Righteous', cursive;
+}
+
+section {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+/*////////////////////////////////////*/
+/* -------RACCOURCIS------ */
+/*flex*/
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.taCenter {
+    text-align: center;
+}
+
+.taLeft {
+    text-align: left;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0%;
+}
+
+.utsfGrand {
+    margin: 1%;
+}
+
+.lettre_u {
+    color: #7BB3E7;
+    text-shadow: 4px 4px 4px rgb(3, 104, 187);
+}
+
+.lettre_ts {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.lettre_f {
+    color: #FF0000;
+    text-shadow: 2px 2px 2px rgb(192, 2, 2);
+}
+
+.sousTitre {
+    margin: 0%;
+    color: rgb(0, 255, 136);
+    font-size: 17px;
+}
+
+.logoVille {
+    width: 170px;
+    height: 70px;
+}
+
+.sousMenu {
+    color: white;
+    margin-top: 3%;
+}
+
+.imgAccueil {
+    margin-top: 3%;
+    margin-bottom: 0%;
+    width: 65%;
+    height: 80%;
+}
+
+.accueil_menu {
+    color: rgb(0, 200, 250);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.activites_menu {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.programmes_menu {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact_menu {
+    color: #FF0000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bd-example {
+
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+#carouselExampleCaptions {
+
+    width: 30%;
+    
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.titreProgrammes {
+    font-size: 36px;
+    color: rgb(228, 62, 62);
+}
+
+.titreActivites {
+    font-size: 36px;
+    color: rgb(228, 62, 62);
+}
+
+.introduction {
+
+    color: yellow;
+}
+
+.services {
+
+    color: yellow;
+}
+
+.objectifs {
+
+    color: yellow;
+}
+
+.texteIntroduction {
+
+    color: #7BB3E7;
+}
+
+.texteObjectifs {
+
+    color: white;
+}
+
+.texteServices {
+
+    color: #03b890;
+}
+
+.textPres {
+    font-size: 26px;
+    color: white;
+}
+
+
+
+.textActivites ul li {
+    margin: 15px;
+    vertical-align: center;
+}
+
+.textProgrammes {
+    color: white;
+}
+
+.miniTitres {
+    font-size: 22px;
+    color: darkgrey;
+}
+
+.textMini {
+    font-size: 19px;
+}
+
+.textJours {
+    font-size: 33px;
+}
+
+.emploiDuTemps {
+    grid-template-columns: 1fr 1fr;
+}
+
+.joursSemaine {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.couleurJours {
+    color: orange;
+}
+
+.horairesProgrammes {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer {
+    background-color: black;
+}
+
+.logonoirs {
+    height: 70px;
+    width: 70px;
+}
+
+.titreFooter {
+    font-size: 36px;
+    color: rgb(228, 62, 62);
+    padding-bottom: 1%;
+}
+
+.imgFooter {
+    width: 100px;
+    height: 75px;
+}
+
+.hdp {
+    color: red;
+}
+
+.adresse {
+    color: #7BB3E7;
+    
+}
+
+.telephone {
+    color: white;
+    
+}
+
+.mail {
+    color: #FF0000;
+   
+}
+
+.jaune {
+    color: yellow;
+
+}
+
+ /* RESPONSIVE */
+
+ @media screen and (max-width: 650px) {
+    .logoVille {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    h2 {
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .sousMenu {
+        color: white;
+        margin-top: 6%;
+    }
+    .sousMenu li a {
+        font-size: 21px;
+    }
+    
+
+    #carouselExampleCaptions {
+
+        width: auto;
+        
+    }
+
+    
+    a:hover {
+        color: yellow;
+    }
+    
+    .textMini li {
+        font-size: 15px;
+        padding-top: 5%;
+    }
+
+    
+    
+    .textActivites ul li {
+        font-size: px;
+        margin: 0%;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+    footer div article {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}

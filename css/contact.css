@@ -1,0 +1,296 @@
+/* Balises principales */
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Righteous', cursive;
+}
+
+section {
+    margin-top: 1%;
+    margin-bottom: 13%;
+}
+
+article {
+    margin: 1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+/*////////////////////////////////////*/
+
+
+/* -------racourcis------ */
+
+
+/*flex*/
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcr {
+    justify-content: flex-end;
+}
+
+.jcl {
+    justify-content: left;
+}
+
+.grid {
+    display: grid;
+}
+
+.taCenter {
+    text-align: center;
+}
+
+.taLeft {
+    text-align: left;
+}
+
+
+/*-----------Header (haut de page) ---------*/
+
+h1 {
+    font-size: 90px;
+    margin: 0%;
+}
+
+.utsfGrand {
+    margin: 1%;
+}
+
+.lettre_u {
+    color: #7BB3E7;
+    text-shadow: 4px 4px 4px rgb(3, 104, 187);
+}
+
+.lettre_ts {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.lettre_f {
+    color: #FF0000;
+    text-shadow: 2px 2px 2px rgb(192, 2, 2);
+}
+
+.sousTitre {
+    margin: 0%;
+    color: rgb(0, 255, 136);
+    font-size: 17px;
+}
+
+.logoVille {
+    width: 170px;
+    height: 70px;
+}
+
+.sousMenu {
+    color: white;
+    margin-top: 3%;
+}
+
+.presentation_menu {
+    color: rgb(0, 200, 250);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.activites_menu {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.programmes_menu {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact_menu {
+    color: #FF0000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*------------------FIN Header ------------------*/
+
+
+/* /////////////////////////////////////////////*/
+
+
+/* ------------------BODY---------------------*/
+
+h2 {
+    font-size: 43px;
+    color: rgb(228, 62, 62);
+    margin: 6%
+}
+
+h3 {
+    font-size: 31px;
+    color: white;
+    margin-bottom: 3%;
+}
+
+.nousRetrouver {
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+}
+
+.imgLeft {
+    height: 580px;
+    width: 415px;
+    border: solid 1px blue;
+}
+
+.imgRight {
+    height: 415px;
+    width: 415px;
+    border: solid 1px blue;
+}
+
+.adressText {
+    font-size: 26px;
+    color: rgb(106, 158, 255);
+}
+
+.logoAdress {
+    height: 110px;
+    width: 80px;
+}
+
+.imgContact {
+    height: 180px;
+    width: 180px;
+}
+
+.contactText {
+    font-size: 32px;
+    color: rgb(106, 158, 255);
+}
+
+.phraseConclusion {
+    font-size: 37px;
+    color: rgb(106, 158, 255);
+}
+
+.horaires {
+    font-size: 30px;
+    color: rgb(245, 73, 73);
+    margin-top: 7%;
+}
+
+.jaune {
+
+    color: yellow;
+}
+
+
+/* Medi@ Queries */
+
+@media screen and (max-width:770px) {
+    .logoVille {
+        display: none;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 13px;
+    }
+    h2 {
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    .sousMenu {
+        color: white;
+        margin-top: 6%;
+    }
+    .sousMenu li a {
+        font-size: 21px;
+    }
+    .imgLeft {
+        height: 480px;
+        width: 315px;
+    }
+    .imgRight {
+        height: 315px;
+        width: 315px;
+    }
+    .nousRetrouver {
+        grid-template-columns: 1fr;
+    }
+    .nousRetrouver article div {
+        display: flex;
+        justify-content: center;
+    }
+    .imgContact {
+        height: 50px;
+        width: 50px;
+    }
+    .adressText {
+        font-size: 20px;
+    }
+    .logoAdress {
+        margin: 1%;
+        height: 80px;
+        width: 55px;
+    }
+    .nousContacter {
+        flex-direction: column;
+    }
+    .num {
+        font-size: 21px;
+    }
+    .mail {
+        font-size: 15px;
+    }
+    .phraseConclusion ul li {
+        font-size: 23px;
+    }
+    .horaires ul li {
+        font-size: 23px;
+    }
+}
